@@ -8,6 +8,9 @@ body {
     color: #656565;
 }
 
+html, body {
+    height: 200%;
+}
 header ul {
     list-style-type: none;
     text-transform: uppercase;
@@ -15,6 +18,20 @@ header ul {
     overflow: hidden;
     margin: 0;
     padding: 0;
+}
+
+header {
+}
+
+header {
+    position: sticky;
+    top: 0;
+
+}
+
+#head-wrapper {
+    position: sticky;
+    top: 55px;
 }
 
 header li {
@@ -34,6 +51,14 @@ header ul li a:hover {
     color: #457EBB;
 }
 
+ a:active {
+    outline: 0;
+}
+
+a.active, a.active:hover {
+ color: #004BA6;
+}
+
 /*
 header ul li {
     margin-left: 50px;
@@ -47,6 +72,7 @@ header ul li:first-child {
     padding: 20px;
     margin-bottom: none;
 }
+
 .nav-nav li:first-child{
  margin-left: 25%;
 }
@@ -162,6 +188,7 @@ header ul li a#sign-in:hover {
     background-color: #111;
     border-radius: 3px;
     color: #fff;
+    padding-bottom: 30px;
 }
 
 .header-text #middle-line {
@@ -178,7 +205,9 @@ header ul li a#sign-in:hover {
     margin-left: 120px;
     padding-top: 0px;
     border: 1px solid black;
+    border-radius: 6px;
 }
+
 .header-text .left-stat {
     text-align: left;
     padding-top: 45px;
