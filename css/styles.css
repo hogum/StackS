@@ -67,3 +67,10 @@ right: 20px;
     height: auto;
     margin-bottom: 0;
 }
+
+header ul li button#sign {
+    border: 1px solid #34D55B;
+    border-radius: 2px;
+    background-color: #fff;
+    color: #ff8C00;
+}
