@@ -8,8 +8,9 @@ body {
     color: #656565;
 }
 
-html, body {
-    height: 100%;
+html {
+    overflow-x: hidden;
+    padding: auto 0;
 }
 
 
@@ -248,7 +249,7 @@ header ul li a#sign-in:hover {
 }
 
 .container-cont .sides {
-    width: 145px;
+    width: 200px;
     border: 1px solid #111;
     height: 500px;
     float: left;
@@ -256,6 +257,10 @@ header ul li a#sign-in:hover {
     margin: 4px 0px;
     padding: 5px;
     top: 200px;
+    border-top: none;
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(78, 84, 82, .7);
+    border-top: 1px solid rgb(78, 84, 82, .7);
 }
 
 
@@ -322,7 +327,7 @@ header ul li a#sign-in:hover {
 }
 
 .container-cont .contents-right {
-    width: 205px;
+    width: 250px;
     padding: 0;
     background-color: #E7E7E7;
 
@@ -364,11 +369,13 @@ header ul li a#sign-in:hover {
 
 .container-cont .centre-pane {
     float: left;
-    width: 534px;
+    width: 800px;
     border: 1px hidden #000;
     height: 500px;
     overflow: auto;
     margin: 4px 10px;
+    padding-left: 30px;
+    padding-right: 15px;
 }
 
 .centre-pane .qtext {
@@ -395,7 +402,7 @@ header ul li a#sign-in:hover {
 }
 
 .centre-pane .qcard {
-    width: 505px;
+    width: 750px;
     background-color: #E7E7E7;
     border: 1.2px solid #A2A2A1;
     border-radius: 10px;
@@ -478,6 +485,20 @@ header ul li a#sign-in:hover {
             transform:skew(8deg) rotate(3deg);
 }
 
+.qbutton-scroll a {
+    text-decoration: none;
+    color: #001C8A;
+    font-weight: bolder;
+    cursor: not-allowed;
+}
+
+.qbutton-scroll {
+    text-align: center;
+}
+
+.qbutton-scroll a:visited {
+    color: #001C8A;
+}
 footer {
     padding: 10px;
     margin-top: 12px;
