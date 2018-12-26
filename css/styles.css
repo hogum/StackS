@@ -238,7 +238,6 @@ header ul li a#sign-in:hover {
     margin: 20px 10px;
     box-sizing: border-box;
     width: 100%;
-
 }
 
 .container-cont .sides {
@@ -246,18 +245,114 @@ header ul li a#sign-in:hover {
     border: 1px solid #111;
     height: 500px;
     float: left;
-    position: sticky;
     z-index: -1;
     margin: 4px 0px;
     padding: 5px;
+    top: 200px;
+}
+
+
+.container-cont .sides ul {
+    list-style-type: none;
+}
+
+#cont-text {
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+}
+
+#cont-text > h3, .contents-right > h4 {
+    text-align: center;
+    color: #222;
+}
+
+#cont-text p {
+    padding: 2px;
+    margin: 0;
+    text-align: center;
+}
+
+#cont-text a {
+    pointer-events: all !important;
+    z-index: 1 !important;
+    font-size: 12px;
+    color: #111;
+}
+
+#cont-text p.active {
+    background-color: #BCB9B8;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+#cont-text i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 20px; 
+}
+
+#cont-text .right-arrow:hover {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+
+}
+#cont-text .right-arrow {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.container-cont .contents-left p a {
+    text-align: left;
+    text-decoration: none;
 }
 
 .container-cont .contents-left {
-
+    background-color: #E5E5E5;
+    padding: 0;
 }
 
 .container-cont .contents-right {
     width: 205px;
+    padding: 0;
+    background-color: #E7E7E7;
+
+}
+
+.container-cont .contents-right > h4 {
+    margin-top: 50px;
+}
+
+ .container-cont .contents-right  a {
+    font-size: 12px;
+    color: #111;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.container-cont .contents-right p:nth-child(even) {
+    background-color: #DAD8D7;
+}
+
+.container-cont .contents-right p {
+    margin: 2px auto;
+    border: 0.5px solid #fff;
+    border-radius: 5px;
+    padding: 6px;
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    transition: all .7s ease;
+}
+
+.container-cont .contents-right p:hover {
+    background-color: #B7E77D;
+}
+.container-cont .contents-right .right-text {
+    padding: 8px 1px;
 }
 
 .container-cont .centre-pane {
