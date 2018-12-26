@@ -376,4 +376,10 @@ header ul li a#sign-in:hover {
     width: 505px;
     background-color: #E7E7E7;
     border: 1.2px solid #A2A2A1;
+    border-radius: 10px;
+}
+.centre-pane .qtext .after-p:after {
+    content: ' see more';
+    padding-left: 12px;
+    font-size: 12px;
 }
