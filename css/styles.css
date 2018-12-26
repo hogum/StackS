@@ -364,3 +364,16 @@ header ul li a#sign-in:hover {
     margin: 4px 10px;
 
 }
+
+.centre-pane .qtext {
+    margin-top: 3px;
+    font-size: 13px;
+    text-align: justify;
+    padding: 4px 12px;
+}
+
+.centre-pane .qcard {
+    width: 505px;
+    background-color: #E7E7E7;
+    border: 1.2px solid #A2A2A1;
+}
