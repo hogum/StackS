@@ -412,3 +412,17 @@ header ul li a#sign-in:hover {
     border-radius: 3px;
     
 }
+
+.centre-pane .qicons p:nth-child(2) {
+    margin-right: 5px;
+}
+
+.centre-pane .qicons .right-tag {
+    float: right;
+    margin-right: 10px;
+    margin-top: 0;
+}
+
+.centre-pane .qicons p:not(.qtags) {
+    font-size: 13px;
+}
