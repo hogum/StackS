@@ -246,10 +246,12 @@ header ul li a#sign-in:hover {
     box-sizing: border-box;
     width: 100%;
     z-index: -1;
+    max-width: 100% ! important;
 }
 
 .container-cont .sides {
     width: 200px;
+    height: auto;
     border: 1px solid #111;
     height: 500px;
     float: left;
@@ -379,13 +381,13 @@ header ul li a#sign-in:hover {
 
 .container-cont .centre-pane {
     float: left;
-    width: 800px;
     border: 1px hidden #000;
     height: 500px;
     overflow: auto;
     margin: 4px 10px;
     padding-left: 30px;
     padding-right: 15px;
+    width: 800px;
 }
 
 .centre-pane .qtext {
@@ -554,4 +556,124 @@ footer #copywright p {
 footer div p > span {
     font-size: 13px;
     padding-left: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+
+     .container-cont .sides {
+        width: 148px;
+     }
+
+     .container-cont .contents-right {
+        width: 250px;
+        margin-left: 30px;
+    }
+
+    .container-cont .centre-pane {
+        width: 550px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 0;
+    }
+
+    .centre-pane .qcard {
+        width: 500px;
+    }
+
+    .qbutton-scroll a {
+        display: hidden;
+    }
+
+    @media screen and (max-width: 900px) {
+    .container-cont .contents-right {
+        width: 210px;
+        margin-left: 13px;
+        padding-left: 0;
+    }
+    .centre-pane .qcard {
+        width: 400px;
+    }
+    
+    .container-cont .sides {
+        width: 148px;
+     }
+
+    .container-cont .centre-pane {
+        width: 450px;
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+}
+    @media screen and (max-width: 600px) {
+
+        @media screen and (max-width: 500px){
+        .container-cont .contents-right {
+        width: 130px;
+        margin-left: 5px;
+        padding-left: 0;
+    }
+    .centre-pane .qcard {
+        width: 230px;
+        height: 230px;
+    }
+    .container-cont .centre-pane {
+        width: 250px;
+        padding-right: 0px;
+        padding-left: 4px;
+    }
+    
+    .container-cont .sides {
+        width: 60px;
+     }
+
+     .container-cont .contents-right {
+        width: 120px;
+        margin-left: 10px;
+        padding-left: 0;
+    }
+}
+     .container-cont .contents-right {
+        width: 150px;
+        margin-left: 10px;
+        padding-left: 0;
+    }
+
+    .centre-pane .qcard {
+        width: 250px;
+        height: 230px;
+    }
+    .container-cont .centre-pane {
+        width: 300px;
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+    
+    .container-cont .sides {
+        width: 90px;
+     }
+    
+    footer {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .extra {
+    }
+    
+    #head-wrapper {
+        z-index: -1;
+    }
+
+    .right-text {
+    }
+
+    .contents-right {
+        height: auto;
+        overflow-y: auto;
+    }
+
+    body, html {
+        height: auto;
+    }
+    }
 }
