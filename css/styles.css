@@ -26,14 +26,12 @@ header ul {
 header {
     position: sticky;
     top: 0;
-    z-index: 1;
 
 }
 
 #head-wrapper {
     position: sticky;
     top: 55px;
-    z-index: 1;
 }
 
 header li {
@@ -240,7 +238,6 @@ header ul li a#sign-in:hover {
     margin: 20px 10px;
     box-sizing: border-box;
     width: 100%;
-    z-index: -1;
 }
 
 .container-cont .sides {
@@ -365,6 +362,7 @@ header ul li a#sign-in:hover {
     height: 500px;
     overflow: auto;
     margin: 4px 10px;
+
 }
 
 .centre-pane .qtext {
