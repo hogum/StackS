@@ -370,6 +370,11 @@ header ul li a#sign-in:hover {
     font-size: 13px;
     text-align: justify;
     padding: 4px 12px;
+    border-bottom: 0.2px solid rgba(169, 171, 166, .999);
+}
+
+.centre-pane .qtext p {
+    margin-bottom: 0;
 }
 
 .centre-pane .qcard {
@@ -378,8 +383,32 @@ header ul li a#sign-in:hover {
     border: 1.2px solid #A2A2A1;
     border-radius: 10px;
 }
+
 .centre-pane .qtext .after-p:after {
     content: ' see more';
     padding-left: 12px;
     font-size: 12px;
+}
+
+.centre-pane .qicons {
+    padding: 4px;
+    margin-bottom: 6px;
+    padding-left: 16px;
+    padding-top: 0;
+}
+
+.centre-pane .qicons p {
+    display: inline;
+    font-size: 10px;
+    padding: 2px;
+    padding-top: 0;
+}
+
+
+.centre-pane .qicons .qtags {
+    color: darkblue;
+    background-color: #FDFDFD;
+    border: 1px solid #444;
+    border-radius: 3px;
+    
 }
