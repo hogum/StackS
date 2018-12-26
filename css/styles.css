@@ -290,12 +290,22 @@ header ul li a#sign-in:hover {
     z-index: 1 !important;
     font-size: 12px;
     color: #111;
+        -webkit-transition: all .4s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 
 #cont-text p.active {
     background-color: #BCB9B8;
     border: 1px solid #fff;
     border-radius: 2px;
+}
+
+#cont-text p a:hover:not(.active-a){
+    color: #00209D;
+    font-weight: bolder;
 }
 
 #cont-text i {
