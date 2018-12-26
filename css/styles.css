@@ -191,6 +191,10 @@ header ul li a#sign-in:hover {
     border-radius: 3px;
     color: #fff;
     padding-bottom: 30px;
+    background-image: -webkit-linear-gradient(left, #434343 0%, black 100%);
+    background-image: -o-linear-gradient(left, #434343 0%, black 100%);
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+
 }
 
 .header-text #middle-line {
@@ -472,4 +476,51 @@ header ul li a#sign-in:hover {
         -ms-transform:skew(8deg) rotate(3deg);
          -o-transform:skew(8deg) rotate(3deg);
             transform:skew(8deg) rotate(3deg);
+}
+
+footer {
+    padding: 10px;
+    margin-top: 12px;
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    bottom: -500px;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+    font-weight: 700px;
+}
+
+
+footer {
+    background: -webkit-linear-gradient(rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background: -o-linear-gradient(rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background: linear-gradient(rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+    background-blend-mode: multiply,multiply;
+}
+
+footer {
+    background-image: -webkit-linear-gradient(left, #868f96 0%, #596164 100%);
+    background-image: -o-linear-gradient(left, #868f96 0%, #596164 100%);
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+}
+
+footer {
+    background-image: -webkit-linear-gradient(bottom, #09203f 0%, #537895 100%);
+    background-image: -o-linear-gradient(bottom, #09203f 0%, #537895 100%);
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+footer #copywright p {
+    font-size: 16px;
+    text-align: left;
+    padding: 12px;
+    padding-bottom: 0;
+}
+
+footer div p > span {
+    font-size: 13px;
+    padding-left: 5px;
 }
