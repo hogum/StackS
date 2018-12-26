@@ -26,12 +26,14 @@ header ul {
 header {
     position: sticky;
     top: 0;
+    z-index: 1;
 
 }
 
 #head-wrapper {
     position: sticky;
     top: 55px;
+    z-index: 1;
 }
 
 header li {
@@ -238,10 +240,11 @@ header ul li a#sign-in:hover {
     margin: 20px 10px;
     box-sizing: border-box;
     width: 100%;
+    z-index: -1;
 }
 
 .container-cont .sides {
-    width: 148px;
+    width: 145px;
     border: 1px solid #111;
     height: 500px;
     float: left;
@@ -357,12 +360,11 @@ header ul li a#sign-in:hover {
 
 .container-cont .centre-pane {
     float: left;
-    width: 510px;
-    border: 1px solid #000;
+    width: 534px;
+    border: 1px hidden #000;
     height: 500px;
     overflow: auto;
     margin: 4px 10px;
-
 }
 
 .centre-pane .qtext {
@@ -439,6 +441,8 @@ header ul li a#sign-in:hover {
 }
 
 .centre-pane .qcard {
+    margin-left: 5px;
+    margin-top: 15px;
      position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
