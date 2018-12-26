@@ -9,8 +9,10 @@ body {
 }
 
 html, body {
-    height: 200%;
+    height: 100%;
 }
+
+
 header ul {
     list-style-type: none;
     text-transform: uppercase;
@@ -20,8 +22,6 @@ header ul {
     padding: 0;
 }
 
-header {
-}
 
 header {
     position: sticky;
@@ -228,4 +228,44 @@ header ul li a#sign-in:hover {
     font-size: 26px;
     font-weight: 900px;
     color: #FF8C00;
+}
+
+
+/* Contents */
+
+.container-cont {
+    border-top: 1px solid #959595;
+    margin: 20px 10px;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+.container-cont .sides {
+    width: 148px;
+    border: 1px solid #111;
+    height: 500px;
+    float: left;
+    position: sticky;
+    z-index: -1;
+    margin: 4px 0px;
+    padding: 5px;
+}
+
+.container-cont .contents-left {
+
+}
+
+.container-cont .contents-right {
+    width: 205px;
+}
+
+.container-cont .centre-pane {
+    float: left;
+    width: 510px;
+    border: 1px solid #000;
+    height: 500px;
+    overflow: auto;
+    margin: 4px 10px;
+
 }
